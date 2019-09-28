@@ -27,6 +27,7 @@ public class ContactServiceImpl implements ContactService {
             contactDTO.setEmail(contact.getEmail());
             contactDTO.setName(contact.getName());
             contactDTO.setId(contact.getId());
+            contactDTO.setPhone(contact.getPhone());
             contactDTOS.add(contactDTO);
         }
         return contactDTOS;
